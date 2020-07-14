@@ -4,7 +4,7 @@
 <listeners>
 	<listener class-name='projecte2e.Listen'/>
 </listeners>
-  <test thread-count="5" name="Test" parallel="tests">
+  <test thread-count="6" name="Test" parallel="tests">
     <classes>
       <class name="projecte2e.Tests"/>
     </classes>
