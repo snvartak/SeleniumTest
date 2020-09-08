@@ -26,11 +26,12 @@ import java.util.concurrent.TimeUnit;
 	public class Tests extends BaseClass{
 	LandingPage l = new LandingPage();
 	
-	@Test
-		public void print()
-		{
-			System.out.println("hello.  I am a new TC");
-		}
+	@Test(priority=0)
+	public void print()
+	{
+		System.out.println("hello.  I am a new TC");
+	}
+		
 	@Test(enabled=true)
 	public void testTitle()
 	{
